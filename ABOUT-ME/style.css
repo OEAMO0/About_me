@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo 2", serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* رأس الصفحة */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+
+.header h1 > span {
+  color: red;
+}
+
+.navber ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navber ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+/* نهاية رأس الصفحة */
+
+/* المحتوى */
+.main {
+  padding: 1rem;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.text-about-me {
+  font-size: 2rem;
+}
+
+.text-about-me span {
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.who-am-i {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 100%;
+}
+
+.who-am-i h3 > span {
+  color: red;
+}
+
+.reason-for-coding {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.desc {
+  width: 50%;
+  max-width: 30%;
+}
+
+.desc h3 {
+  font-size: 1.6rem;
+}
+
+.desc p {
+  font-size: 1rem;
+}
+
+.images {
+  width: 50%;
+  max-width: 30%;
+}
+
+img {
+  filter: brightness(0.7);
+}
+
+.reason-for-coding h3 > span {
+  color: red;
+}
+
+.My-skills {
+  text-align: center;
+}
+
+.text-My-skills {
+  font-size: 2rem;
+}
+
+.text-My-skills span {
+  font-size: 2rem;
+  color: red;
+}
+
+.coding {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.HTML {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border-radius: 1rem;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  backdrop-filter: blur(10px);
+}
+
+.HTML h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+
+.HTML img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ln {
+  border-radius: 3px;
+  margin-top: 20px;
+  width: 80%;
+  height: 10px;
+}
+
+.line {
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.len {
+  border-radius: 3px;
+  background-color: blue;
+  width: 95%;
+  height: 100%;
+}
+
+.CSS {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border-radius: 1rem;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  backdrop-filter: blur(10px);
+}
+
+.CSS h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+
+.CSS img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ln1 {
+  border-radius: 3px;
+  margin-top: 20px;
+  width: 80%;
+  height: 10px;
+}
+
+.line1 {
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.len1 {
+  border-radius: 3px;
+  background-color: blue;
+  width: 70%;
+  height: 100%;
+}
+
+.JS {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  border-radius: 1rem;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  backdrop-filter: blur(10px);
+}
+
+.JS h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+
+.JS img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.ln2 {
+  border-radius: 3px;
+  margin-top: 20px;
+  width: 80%;
+  height: 10px;
+}
+
+.line2 {
+  border-radius: 3px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.len2 {
+  border-radius: 3px;
+  background-color: blue;
+  width: 20%;
+  height: 100%;
+}
+
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .coding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .who-am-i {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .reason-for-coding {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .desc p {
+    width: 350px;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  .images img {
+    width: 100%;
+  }
+
+  .desc h3 {
+    font-size: 1.2rem;
+  }
+
+  .desc p {
+    font-size: 0.99rem;
+  }
+}
